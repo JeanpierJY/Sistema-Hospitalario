@@ -4,39 +4,45 @@
  */
 package practicandolistas;
 
-public class NodoDoble {
-    private int dato;
-    NodoDoble sgte;
-    NodoDoble ant;
+/**
+ *
+ * @author Jean
+ */
+public class NodoPersona {
+    Persona dato;
+    NodoPersona sgte;
+    NodoPersona ant;
 
-    public NodoDoble(int dato) {
+    public NodoPersona(Persona dato) {
         this.dato = dato;
         this.sgte = null;
         this.ant = null;
     }
 
-    public int getDato() {
+    public Persona getDato() {
         return dato;
     }
 
-    public void setDato(int dato) {
+    public void setDato(Persona dato) {
         this.dato = dato;
     }
 
-    public NodoDoble getSgte() {
+    public NodoPersona getSgte() {
         return sgte;
     }
 
-    public void setSgte(NodoDoble sgte) {
+    public void setSgte(NodoPersona sgte) {
         this.sgte = sgte;
     }
 
-    public NodoDoble getAnt() {
+    public NodoPersona getAnt() {
         return ant;
     }
 
-    public void setAnt(NodoDoble ant) {
+    public void setAnt(NodoPersona ant) {
         this.ant = ant;
     }
+    
+    
     
 }
